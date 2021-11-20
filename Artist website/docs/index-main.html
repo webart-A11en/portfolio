@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-main.css">
+    <script src="lib/aframe.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Allen Huang
+    </h1>
+
+    <h2>
+        Main navigation
+    </h2>
+
+    <nav class="main-navigation">
+        <a href="Projects">Projects</a>
+        <a href="About">About</a>
+    </nav>
+
+    <h2>
+        Works navigation
+    </h2>
+
+    <nav class="works-navigation">
+        
+    </nav>
+
+    <a-scene>
+
+        <!-- <a-assets>
+            <img id="sky" src="sky.png">
+          </a-assets>
+          <a-sky src="#sky"></a-sky>
+          <a-sky color="#6EBAA7" opacity="0.1"></a-sky> -->
+
+        <!-- <a-scene background="black: red"></a-scene> -->
+
+        <a-entity light="type:directional; castShadow:true;" position="1 1 1"></a-entity>
+        <a-gltf-model src="tree.gltf" shadow="receive: false"></a-gltf-model>
+
+        <!-- <a-box color="black" rotation="0 45 45" scale="2 2 2" position="0 0 -10"></a-box> -->
+        <a-assets>
+            <a-asset-item id="jian" src="assets/jian.OBJ"></a-asset-item>
+        </a-assets>
+
+        <!-- <a-obj-model src="#jian" color="grey"  rotation="0 160 0 scale="1 1 1" position="0 0 -5"></a-obj-model> -->
+        <a-obj-model src="#jian" color="#941313"  rotation="0 180 0 scale="1 1 1" position="0 0 -1.5"></a-obj-model>
+
+        <!-- <a-scene fog="type: linear; color: #2e0404#941313"></a-scene> -->
+
+        <a-assets>
+            <img id="Alien" src="AlienorganSV.JPG">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-curvedimage src="#Alien" height="3.0" radius="5.7" theta-length="72"
+                         rotation="0 100 0" scale="0.8 0.8 0.8"></a-curvedimage>
+        
+          <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+          <a-curvedimage src="AlienorganSV.JPG"></a-curvedimage>
+    </a-scene>
+    
+</body>
+</html>
