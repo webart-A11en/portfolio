@@ -1,16 +1,15 @@
 #Pheadline {
-    margin-left: 44%;
     /* padding-top: 1.5vh;
-    bottom: 2%;
-    text-align: center; */
-    color: rgb(255, 255, 255);
-    position: relative;
-    z-index: 1; 
-    font-size: 2vw;
+    bottom: 2%;*/
+    text-align: center; 
+    font-size: calc(.5rem + 2vw);
     font-family: fantasy;
-    text-decoration: none;
    
-    color: rgb(180, 17, 17);
+}
+
+#Pheadline a {
+    text-decoration: none;;
+     color: rgb(180, 17, 17);
 }
 
 #lotus {
