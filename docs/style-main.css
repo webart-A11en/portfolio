@@ -1,0 +1,39 @@
+h1 {
+    padding-top: 1.5vh;
+    bottom: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1; 
+    font-size: 2vw;
+    font-family: fantasy;
+   
+    color: rgb(180, 17, 17);
+}
+#test1 {
+    position: relative;
+    z-index: 1; 
+    
+}
+#Projects {
+    margin-left: 45%;
+    bottom: 2%;
+    position: absolute;
+    z-index: 1; 
+    font-size: 0.5cm;
+    text-decoration: none; 
+    color: rgb(180, 17, 17);
+    
+}
+#About {
+    margin-left: 52%;
+    bottom: 2%;
+    position: absolute;
+    z-index: 1; 
+    font-size: 0.5cm; 
+    text-decoration: none; 
+    color: rgb(180, 17, 17);
+    
+}
+
+
